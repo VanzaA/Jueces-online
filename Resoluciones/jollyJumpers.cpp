@@ -11,7 +11,9 @@ int main(int argc, char	const *argv[]){
 	int cant,ant, act, comp;
 	
 	while(cin >> cant){
-	
+		if (cant== 0){
+			break
+		}
 		jolly = true;
 		ant = 9999;
 		vector <bool> resultados(cant,false);
